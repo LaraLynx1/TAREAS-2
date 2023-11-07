@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(224, 207, 255);
+  display: flex;
+  align-items: center;
+  padding-left: 10rem;
+}
+#adicionarTarea {
+  padding-left: 10px;
+  height: 80px;
+  width: 230px;
+  border-radius: 10px;
+}
+.add {
+  width: 90px;
+  height: 40px;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+.text-space {
+  display: flex;
+  align-items: center;
+  padding: 2rem 6rem;
+  background-color: rgb(255, 244, 255);
+}
+.category {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 170rem;
+  background-color: rgb(255, 244, 255);
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 30rem;
+  height: 95%;
+  background-color: rgb(209, 218, 255);
+  border-radius: 30px;
+}
+.tarjeta {
+  width: 25rem;
+  height: 15rem;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}
+.cerrar {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  height: 15%;
+}
+.descripcion {
+  width: 90%;
+  height: 65%;
+}
+.botones {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+}
+.close {
+  margin: 5px;
+  font-size: 30pt;
+}
+.botton1 {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: crimson;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+.botton2 {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: rgb(63, 20, 220);
+  margin-right: 10px;
+  border-radius: 15px;
+}

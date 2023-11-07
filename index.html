@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="title">
+      <h2>Task Manager Laura P</h2>
+    </div>
+
+    <div class="text-space">
+      <input id="adicionarTarea" type="text" placeholder="Escriba su tarea" />
+      <button class="add" onclick="addTarea()">Agregar</button>
+    </div>
+
+    <div class="category">
+      <div id="todo" class="column">
+        <!-- <div id='111' class="tarjeta">
+          <div class="cerrar">
+            <i onclick='eliminarTarea(111)' class="bx bx-x-circle close"></i>
+          </div>
+          <div class="descripcion">Lorem ipsum dolor sit amet</div>
+          <div class="botones">
+            <div class="botton1" onclick='bajarTarea(111)'></div>
+            <div class="botton2" onclick='subirTarea(111)'></div>
+          </div>
+        </div> -->
+      </div>
+
+      <div id="doing" class="column"></div>
+      <div id="done" class="column"></div>
+    </div>
+
+    <script src="tarea-data.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
